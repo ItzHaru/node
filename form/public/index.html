@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>ARMY form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <header class="text-center p-3">
+        <h1 class="display-1">ARMY form</h1>
+        <p class="h4">BTS ARMY stats form</p>
+      </header>
+      <main class="container">
+        <h2 class="pb-3">Fill the form</h2>
+        <form action="/savedata" method="post">
+            <div class="form-group row">
+                <label for="bias" class="col-sm-2 col-form-label">Your bias</label>
+                <div class="col-sm-10">
+                  <select class="form-control" name="bias" id="bias">
+                    <option value="RM">RM</option>
+                    <option value="Jin">Jin</option>
+                    <option value="Suga">Suga</option>
+                    <option value="J-Hope">J-Hope</option>
+                    <option value="Jimin">Jimin</option>
+                    <option value="V">V</option>
+                    <option value="Jungkook">Jungkook</option>
+                    <option value="OT7">OT7</option>
+                  </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="song" class="col-sm-2 col-form-label">Your favourite song</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" name="song" id="song" placeholder="Write down the name of your fav. BTS song">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="album" class="col-sm-2 col-form-label">Your favourite album</label>
+                <div class="col-sm-10">
+                  <select class="form-control" name="album" id="album">
+                    <option value="BUTTER">BUTTER</option>
+                    <option value="BE">BE</option>
+                    <option value="MAP OF THE SOUL: 7">MAP OF THE SOUL : 7</option>
+                    <option value="MAP OF THE SOUL: PERSONA">MAP OF THE SOUL : PERSONA</option>
+                    <option value="LOVE YOURSELF : ANSWER">LOVE YOURSELF : ANSWER</option>
+                    <option value="LOVE YOURSELF : TEAR">LOVE YOURSELF : TEAR</option>
+                    <option value="LOVE YOURSELF : HER">LOVE YOURSELF : HER</option>
+                    <option value="YOU NEVER WALK ALONE">YOU NEVER WALK ALONE</option>
+                    <option value="WINGS">WINGS</option>
+                    <option value="The most beautiful moment in life : Young Forever">The most beautiful moment in life : Young Forever</option>
+                    <option value="The most beautiful moment in life pt.2">The most beautiful moment in life pt.2</option>
+                    <option value="The most beautiful moment in life pt.1">The most beautiful moment in life pt.1</option>
+                    <option value="DARK & WILD">DARK & WILD</option>
+                    <option value="SKOOL LUV AFFAIR">SKOOL LUV AFFAIR</option>
+                    <option value="O!RUL8,2?">O!RUL8,2?</option>
+                    <option value="2 COOL 4 SKOOL">2 COOL 4 SKOOL</option>
+                  </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="year" class="col-sm-2 col-form-label">ARMY since</label>
+                <div class="col-sm-10">
+                  <select class="form-control" name="year" id="year">
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                  </select>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="offset-sm-2 col-sm-10">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+      </main>
+      <footer>
+
+      </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "formular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItzHaru/node.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "PUG",
+    "CSV"
+  ],
+  "author": "RP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItzHaru/node/issues"
+  },
+  "homepage": "https://github.com/ItzHaru/node#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.3",
+    "git": "^0.1.5",
+    "node.js": "^0.0.1-security",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2"
+  }
+}
