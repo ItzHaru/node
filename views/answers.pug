@@ -1,0 +1,30 @@
+html 
+    head 
+        title stats
+        link(rel='stylesheet'
+href='https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css')
+
+    body
+      header
+        h1.text-center.p-4 #{title}     
+      main
+        table.table.table-bordered
+            thead 
+                tr 
+                    th bias
+                    th favorite song
+                    th favorite album
+                    th army since
+                   
+            tbody 
+                each fo in form
+                    tr 
+                        td #{fo.bias}
+                        td #{fo.song}        
+                        td #{fo.album}
+                        td #{fo.year}   
+
+    footer 
+    script(src='https://code.jquery.com/jquery-3.4.1.slim.min.js')
+        script(src='https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js')
+        
